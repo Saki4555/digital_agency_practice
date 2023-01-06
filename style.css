@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #d5d2d2;
+    color: white;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+.item{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.banner_container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(asset/image/background.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.banner_title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.primary_color{
+    color: rgb(227, 25, 25);
+}
+
+.description{
+    font-size: 20px;
+    margin: auto;
+}
+
+.btn_primary{
+    padding: 15px 35px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.btn_hire{
+    padding: 15px 35px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    margin: 5px;
+}
