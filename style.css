@@ -67,3 +67,87 @@
     font-size: 18px;
     margin: 5px;
 }
+
+.service_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(asset/image/footer-bg.png),
+    linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+
+    color: white;
+    padding: 20px;
+}
+
+.service_list{
+    color: gray;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.service_title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.service_description{
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    padding: 10px;
+    
+}
+
+.author_details{
+    display: flex;
+    align-items: center;
+    
+}
+
+.author_description{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-right: 1px solid red;
+    margin-top: 50px;
+}
+
+.author_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.service_up{
+    display: flex;
+}
+
+.service{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.service_logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.service_down{
+    display: flex;
+}
+
+.service_left_container{
+    width: 50%;
+}
